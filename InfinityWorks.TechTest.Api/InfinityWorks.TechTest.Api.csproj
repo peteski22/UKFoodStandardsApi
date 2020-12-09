@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>InfinityWorks.TechTest.Api</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InfinityWorks.TechTest.Client\InfinityWorks.TechTest.Client.csproj" />
+    <ProjectReference Include="..\InfinityWorks.TechTest.Core\InfinityWorks.TechTest.Core.csproj" />
+  </ItemGroup>
+  
+</Project>
